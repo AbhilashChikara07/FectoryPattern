@@ -7,6 +7,7 @@ package com.example.chikara.factorypattern.CreationalPattern.FactoryDesignPatter
 public class CarClass {
 
     CarInterface getCar(String type, String carName) {
+
         if ("BoloroCarClass".equalsIgnoreCase(type)) {
             return new BoloroCarClass(carName);
         } else if ("DusterCarClass".equalsIgnoreCase(type)) {

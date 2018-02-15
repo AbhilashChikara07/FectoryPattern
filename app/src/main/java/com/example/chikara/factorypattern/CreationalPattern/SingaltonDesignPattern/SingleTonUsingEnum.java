@@ -1,4 +1,4 @@
-package com.example.chikara.factorypattern.CreationalPattern.JavaSingalTon;
+package com.example.chikara.factorypattern.CreationalPattern.SingaltonDesignPattern;
 
 /**
  * Created by chikara on 2/12/18.
