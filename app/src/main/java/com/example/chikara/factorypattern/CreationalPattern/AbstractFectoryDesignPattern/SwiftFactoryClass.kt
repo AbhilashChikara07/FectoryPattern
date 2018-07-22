@@ -4,7 +4,7 @@ import com.example.chikara.factorypattern.CreationalPattern.AbstractFectoryDesig
 import com.example.chikara.factorypattern.CreationalPattern.AbstractFectoryDesignPattern.FactoryClassInterface
 import com.example.chikara.factorypattern.CreationalPattern.AbstractFectoryDesignPattern.SwiftCarClass
 
-class SwiftFectoryClass(mTyreName: String, mCarLogo: String) : FactoryClassInterface {
+class SwiftFactoryClass(mTyreName: String, mCarLogo: String) : FactoryClassInterface {
 
     private var mTyreName: String? = null
     private var mCarLogo: String? = null

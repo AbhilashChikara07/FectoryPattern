@@ -1,11 +1,11 @@
 package com.example.chikara.factorypattern.CreationalPattern.AbstractFectoryDesignPattern;
 
-public class BrezzaFectoryClass implements FactoryClassInterface {
+public class BrezzaFactoryClass implements FactoryClassInterface {
 
     private String mTyreName;
     private String mCarLogo;
 
-    BrezzaFectoryClass(String mTyreName, String mCarLogo) {
+    BrezzaFactoryClass(String mTyreName, String mCarLogo) {
         this.mTyreName = mTyreName;
         this.mCarLogo = mCarLogo;
     }
