@@ -5,7 +5,6 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
-import in.oku.serviceproject.designPattern.F.AbstractFectoryDesignPattern.SwiftFactoryClass;
 
 public class CarClass extends AppCompatActivity {
 
@@ -16,15 +15,15 @@ public class CarClass extends AppCompatActivity {
         CarRequirementClass mBrezzaCarRequirementClass =
                 new BrezzaFactoryClass(
                         "MRF",
-                "BREZZA").getCarClassObj();
+                        "BREZZA").getCarClassObj();
 
         CarRequirementClass mSwiftCarRequirementClass =
                 new SwiftFactoryClass(
                         "MRF",
                         "SWIFT").getCarClassObj();
 
-        Log.e("BREZZA-CAR",""+mBrezzaCarRequirementClass.toString());
-        Log.e("SWIFT-CAR",""+mSwiftCarRequirementClass.toString());
+        Log.e("BREZZA-CAR", "" + mBrezzaCarRequirementClass.toString());
+        Log.e("SWIFT-CAR", "" + mSwiftCarRequirementClass.toString());
 
     }
 
