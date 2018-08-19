@@ -16,7 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.chikara.factorypattern.CreationalPattern.FactoryDesignPattern.InfoClass"/>
+
+        <activity android:name=".StructurePattern.AdaptorPattern.AdaptorMainActivity" />
+        <activity android:name=".StructurePattern.FlyWeightPattern.FlyWeightMainClass" />
+        <activity android:name=".StructurePattern.FacadeDesignPattern.MethodOne.FacadeMainActivity" />
+        <activity android:name=".StructurePattern.CompositePattern.CompositeMainActivity" />
+        <activity android:name=".StructurePattern.ProxyDesignPattern.ProxyMainActivityClass" />
+
     </application>
 
 </manifest>

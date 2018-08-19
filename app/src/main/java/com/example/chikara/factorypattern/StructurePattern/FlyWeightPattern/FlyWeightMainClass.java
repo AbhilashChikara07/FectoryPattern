@@ -12,15 +12,14 @@ import java.util.HashMap;
  * Created by chikara on 2/14/18.
  */
 
+/*
+* Flyweight is one of the structure design pattern which
+* used when you are low on memory devices and you need to create lots of object of a class.
+* So we can save object of classes.
+* Using HasMap we can save object and get same object when required
+* */
 
-public class InfoClass extends AppCompatActivity {
-
-        /*
-    * This method is when you very fast making object.
-    * So by using FlyWeightPattern we can save object.
-    *
-    * Using HasMap we can save object and get same object when required.
-    * */
+public class FlyWeightMainClass extends AppCompatActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -28,7 +27,7 @@ public class InfoClass extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         CircleClass circleClass = new CircleClass();
-        HoldClassObject holdClassObject = new HoldClassObject();
+        HoldClassObjects holdClassObject = new HoldClassObjects();
 
         HashMap<String, DrawInterface> hashMapObject = holdClassObject.getMap();
         hashMapObject.put("CircleClassObject", circleClass);

@@ -6,13 +6,13 @@ import java.util.HashMap;
  * Created by chikara on 2/14/18.
  */
 
-public class HoldClassObject {
+public class HoldClassObjects {
 
     HashMap<String, DrawInterface> map;
 
     public HashMap<String, DrawInterface> getMap() {
         if (map == null) {
-            synchronized (HoldClassObject.this) {
+            synchronized (HoldClassObjects.this) {
                 return new HashMap<>();
             }
         } else {
