@@ -7,6 +7,7 @@ import java.util.ArrayList;
  */
 
 public class EmployDataClass implements Cloneable {
+
     private ArrayList<String> empList;
 
     EmployDataClass(ArrayList<String> empList) {

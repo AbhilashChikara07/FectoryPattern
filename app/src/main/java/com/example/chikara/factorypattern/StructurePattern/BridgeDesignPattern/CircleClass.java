@@ -4,6 +4,7 @@ public class CircleClass extends Shape {
 
     public CircleClass(Color c) {
         super(c);
+        applyColor();
     }
 
     @Override
